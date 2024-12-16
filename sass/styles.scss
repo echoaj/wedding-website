@@ -258,6 +258,7 @@ Hero
   -o-background-size: cover;
   background-size: cover;
   position: relative;
+  // filter: grayscale(100%);
 
   .down-arrow a {
     color: $txt-light;
@@ -323,7 +324,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $txt-nav;
         padding-right: 25px;
 
         &:hover {
@@ -340,7 +341,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $txt-nav;
 
         &:hover {
           color: $accent-color;
