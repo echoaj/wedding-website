@@ -365,7 +365,8 @@ Intro
 ========================================================================== */
 
 #intro {
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 40px;
   img {
     width: 100%;
     height: auto;
@@ -389,6 +390,7 @@ Events
 RSVP form
 ========================================================================== */
 .rsvp {
+  padding-top: 40px;
   padding-bottom: 140px;
   .rsvp-form {
     .rsvp-btn {
